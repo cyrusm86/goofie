@@ -27,12 +27,12 @@ docker-compose down
 ```
 
 ### Heroku usage
-Goof requires attaching a MongoLab service to be deployed as a Heroku app. 
-That sets up the MONGOLAB_URI env var so everything after should just work. 
+Goof requires attaching a MongoLab service to be deployed as a Heroku app.
+That sets up the MONGOLAB_URI env var so everything after should just work.
 
 ### CloudFoundry usage
-Goof requires attaching a MongoLab service and naming it "goof-mongo" to be deployed on CloudFoundry. 
-The code explicitly looks for credentials to that service. 
+Goof requires attaching a MongoLab service and naming it "goof-mongo" to be deployed on CloudFoundry.
+The code explicitly looks for credentials to that service.
 
 ### Cleanup
 To bulk delete the current list of TODO items from the DB run:
@@ -90,3 +90,5 @@ snyk wizard
 
 In this application, the default `snyk wizard` answers will fix all the issues.
 When the wizard is done, restart the application and run the exploits again to confirm they are fixed.
+
+#cyrusupdate
